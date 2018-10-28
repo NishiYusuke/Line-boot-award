@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "app.py", line 128, in <module>
+    app.run(host='0.0.0.0')
+  File "/Users/JP21988/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/Users/JP21988/.pyenv/versions/3.6.2/lib/python3.6/site-packages/werkzeug/serving.py", line 720, in run_simple
+    s.bind((hostname, port))
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "app.py", line 128, in <module>
+    app.run(host='0.0.0.0')
+  File "/Users/JP21988/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/Users/JP21988/.pyenv/versions/3.6.2/lib/python3.6/site-packages/werkzeug/serving.py", line 720, in run_simple
+    s.bind((hostname, port))
+OSError: [Errno 48] Address already in use
+nohup: python.app: No such file or directory
+python: can't open file 'python.app': [Errno 2] No such file or directory
